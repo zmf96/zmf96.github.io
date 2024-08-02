@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.52" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://zmf96.github.io/demo/disable.html"><meta property="og:site_name" content="小明的笔记本"><meta property="og:title" content="布局与功能禁用"><meta property="og:description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2024-08-02T04:05:12.000Z"><meta property="article:author" content="XiaoMing"><meta property="article:tag" content="禁用"><meta property="article:modified_time" content="2024-08-02T04:05:12.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"布局与功能禁用","image":[""],"dateModified":"2024-08-02T04:05:12.000Z","author":[{"@type":"Person","name":"XiaoMing","url":"https://github.com/zmf963"}]}</script><title>布局与功能禁用 | 小明的笔记本</title><meta name="description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。">
+    <link rel="preload" href="/assets/style-ffDMQ4dE.css" as="style"><link rel="stylesheet" href="/assets/style-ffDMQ4dE.css">
+    <link rel="modulepreload" href="/assets/app-CXiloG2g.js"><link rel="modulepreload" href="/assets/disable.html-BBySC_OZ.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    <link rel="prefetch" href="/assets/index.html-ZVUTHn5F.js" as="script"><link rel="prefetch" href="/assets/intro.html-BwFjDrEG.js" as="script"><link rel="prefetch" href="/assets/index.html-CD4oJkbq.js" as="script"><link rel="prefetch" href="/assets/encrypt.html-CeVz-kG7.js" as="script"><link rel="prefetch" href="/assets/layout.html-p_hoV-zy.js" as="script"><link rel="prefetch" href="/assets/markdown.html-Cx4IPHZb.js" as="script"><link rel="prefetch" href="/assets/page.html-D5_W6rEV.js" as="script"><link rel="prefetch" href="/assets/index.html-Cq7lHYFF.js" as="script"><link rel="prefetch" href="/assets/0_GO介绍.html-CwGzQlLX.js" as="script"><link rel="prefetch" href="/assets/10_错误和异常.html-DYEcOVEo.js" as="script"><link rel="prefetch" href="/assets/11_包-模块-库.html-DQRZStFD.js" as="script"><link rel="prefetch" href="/assets/12_测试.html-D60Q8iQt.js" as="script"><link rel="prefetch" href="/assets/13_项目结构代码风格与标识符命名.html-DrbviKVG.js" as="script"><link rel="prefetch" href="/assets/1_入门例子.html-CzMglVOy.js" as="script"><link rel="prefetch" href="/assets/2_数据类型.html-DJbSsSdM.js" as="script"><link rel="prefetch" href="/assets/3_语句.html-D34F0m9A.js" as="script"><link rel="prefetch" href="/assets/4_函数.html-C36t6FMX.js" as="script"><link rel="prefetch" href="/assets/5_方法.html-mRJfxnnF.js" as="script"><link rel="prefetch" href="/assets/6_继承.html-COkmrv3h.js" as="script"><link rel="prefetch" href="/assets/7_接口.html-C3KHV3N3.js" as="script"><link rel="prefetch" href="/assets/8_泛型.html-IZBePSZk.js" as="script"><link rel="prefetch" href="/assets/9_并发.html-CE91A6z7.js" as="script"><link rel="prefetch" href="/assets/11_协程池.html-Di8ILXlG.js" as="script"><link rel="prefetch" href="/assets/12_Go内存逃逸.html-DlU4Cdwc.js" as="script"><link rel="prefetch" href="/assets/13_make与new.html-Bi_Cop5j.js" as="script"><link rel="prefetch" href="/assets/2_CGO编程.html-CNrn-TFo.js" as="script"><link rel="prefetch" href="/assets/3_汇编语言.html-R4xOwsQi.js" as="script"><link rel="prefetch" href="/assets/7_Golang协程调度器原理-GMP模型.html-BA5rtLIk.js" as="script"><link rel="prefetch" href="/assets/8_GC-垃圾回收.html-I6kAhuMK.js" as="script"><link rel="prefetch" href="/assets/9_内存管理.html-DYiQyaFL.js" as="script"><link rel="prefetch" href="/assets/1_log.html-CjGw0o7V.js" as="script"><link rel="prefetch" href="/assets/2_gopsutil.html-EHESvgZ8.js" as="script"><link rel="prefetch" href="/assets/3_gorm.html-D77p6jrh.js" as="script"><link rel="prefetch" href="/assets/1_go-zero.html-BDX9ostZ.js" as="script"><link rel="prefetch" href="/assets/2_gin.html-CW-RvriO.js" as="script"><link rel="prefetch" href="/assets/3_grpc.html-d5jEui4i.js" as="script"><link rel="prefetch" href="/assets/4_zinx.html-_WEmhiPo.js" as="script"><link rel="prefetch" href="/assets/0_gin-vue-admin.html-D9D6Dt1W.js" as="script"><link rel="prefetch" href="/assets/1_go-zero.html-Ba01_a0p.js" as="script"><link rel="prefetch" href="/assets/2_gin-api.html-Bf-5I4Cv.js" as="script"><link rel="prefetch" href="/assets/3_packetbeat.html-CEOSCwkb.js" as="script"><link rel="prefetch" href="/assets/10_网络IO并发模型.html-Bs8t6del.js" as="script"><link rel="prefetch" href="/assets/6_分布式.html-C-_BxPeJ.js" as="script"><link rel="prefetch" href="/assets/404.html-D0RFG_ip.js" as="script"><link rel="prefetch" href="/assets/index.html-B45TvbMV.js" as="script"><link rel="prefetch" href="/assets/index.html-C03PazO9.js" as="script"><link rel="prefetch" href="/assets/index.html-CnQbPsJB.js" as="script"><link rel="prefetch" href="/assets/index.html-BY7a7VsO.js" as="script"><link rel="prefetch" href="/assets/index.html-CytifOZB.js" as="script"><link rel="prefetch" href="/assets/index.html-CBEXZtkM.js" as="script"><link rel="prefetch" href="/assets/index.html-ByKtr3xN.js" as="script"><link rel="prefetch" href="/assets/index.html-BUG_burP.js" as="script"><link rel="prefetch" href="/assets/index.html-BQWWwO8V.js" as="script"><link rel="prefetch" href="/assets/index.html-DTx9DWYA.js" as="script"><link rel="prefetch" href="/assets/index.html-CIn5S_30.js" as="script"><link rel="prefetch" href="/assets/index.html-BSO2dYtI.js" as="script"><link rel="prefetch" href="/assets/index.html-DWH-1mfc.js" as="script"><link rel="prefetch" href="/assets/index.html-1jjzSfkZ.js" as="script"><link rel="prefetch" href="/assets/index.html-Dn1v6vxE.js" as="script"><link rel="prefetch" href="/assets/index.html-B2A2-hWF.js" as="script"><link rel="prefetch" href="/assets/index.html-CMlY5KAC.js" as="script"><link rel="prefetch" href="/assets/index.html-DXEPhyDU.js" as="script"><link rel="prefetch" href="/assets/index.html-M3lEo2-V.js" as="script"><link rel="prefetch" href="/assets/index.html-DYK8SZZJ.js" as="script"><link rel="prefetch" href="/assets/photoswipe.esm-GXRgw7eJ.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><div class="theme-container no-navbar no-sidebar external-link-icon has-toc"><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar"><!----><ul class="vp-sidebar-links"></ul><!----></aside><!--[--><main id="main-content" class="vp-page"><!--[--><!----><!----><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><span class="font-icon icon fa-fw fa-sm fas fa-gears" style=""></span>布局与功能禁用</h1><!----><hr></div><!----><!----><div class="theme-hope-content"><p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p><!-- more --><p>本页面就是一个示例，禁用了如下功能:</p><ul><li>导航栏</li><li>侧边栏</li><li>路径导航</li><li>页面信息</li><li>贡献者</li><li>编辑此页链接</li><li>更新时间</li><li>上一篇/下一篇 链接</li><li>评论</li><li>页脚</li><li>返回顶部按钮</li></ul></div><!----><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!----><!----><!--]--></main><!--]--><!----></div><!--]--><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-CXiloG2g.js" defer></script>
+  </body>
+</html>
